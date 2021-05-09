@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1619941702358
+Build-Jdk: 1.8.0_291
+Built-By: Mukesh
+Bundle-Description: Libs for spring context and testing support
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: nrm
+Bundle-SymbolicName: icici.nrm
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: icici;uses:="javax.annotation,com.google.common.base,org
+ .springframework.context.annotation,org.slf4j";version="1.0.0.SNAPSHOT"
+Import-Package: com.google.common.base;version="[16.0,17)",javax.annotat
+ ion,org.slf4j;version="[1.7,2)",org.springframework.context.annotation
+Tool: Bnd-1.50.0
